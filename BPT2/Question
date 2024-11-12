@@ -1,0 +1,56 @@
+───────┬──────────────────────────────────────────────────────────────
+       │ File: /opt/cs1102/BPT1_problem_2/README.md
+───────┼──────────────────────────────────────────────────────────────
+   1   │ Please use your knowledge of the commands like `mkdir`, `touc
+       │ h`, `ln` etc. to achieve the following directory structure in
+       │  the current working directory by running the commands (not a
+       │  script).
+   2   │
+   3   │ 1. **Create Directories**:
+   4   │
+   5   │     - Create a base directory called `project`.
+   6   │     - Within `project`, create the following subdirectories u
+       │ sing brace expansion:
+   7   │         - `src/{module1,module2}/{include,lib}`
+   8   │         - `docs/{api,manual}`
+   9   │     - Create a directory `bin` within `project`.
+  10   │
+  11   │
+  12   │ 2. **Create Files**:
+  13   │
+  14   │     - Inside `src/module1/include`, create an empty file name
+       │ d `module1.h`.
+  15   │     - Inside `src/module1/lib`, create an empty file named `m
+       │ odule1.so`.
+  16   │     - Inside `src/module2/include`, create an empty file name
+       │ d `module2.h`.
+  17   │     - Inside `src/module2/lib`, create an empty file named `m
+       │ odule2.so`.
+  18   │
+  19   │
+  20   │ 3. **Create Hard Links**:
+  21   │
+  22   │     - Create a hard link to `module1.h` in the `bin` director
+       │ y and name it `module1_hardlink.h`.
+  23   │     - Create a hard link to `module2.so` in the `bin` directo
+       │ ry and name it `module2_hardlink.so`.
+  24   │
+:
+
+
+  26   │ 4. **Create Soft Links**:
+  27   │
+  28   │     - Create a soft link to the `docs` directory in the `proj
+       │ ect` directory and name it `documentation`.
+  29   │     - Create a soft link to `module1.so` inside `module2/lib`
+       │  directory and name it `module1_symlink.so`.
+  30   │
+  31   │
+  32   │ 5. **Modify Permissions**:
+  33   │
+  34   │     - Set the permission of `project` directory to `755`.
+  35   │     - Set the permission of all directories under `project/sr
+       │ c` to `700`.
+  36   │     - Set the permission of all `.h` files to `644`.
+  37   │     - Set the permission of all `.so` files to `755`.
+  38   │
