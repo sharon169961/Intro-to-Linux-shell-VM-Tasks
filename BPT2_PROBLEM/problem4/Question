@@ -1,0 +1,22 @@
+───────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       │ File: /opt/cs1102/BPT2_problem_4/README.md
+───────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ A CSV file `people.csv` that contains rows with names and ages. Write a `grep` command to a file `script.sh` to remove all ro
+       │ ws where the age is not a numeric value assuming the input in coming from standard input.
+   2   │
+   3   │ **Sample Input**
+   4   │ ```bash
+   5   │ Name,Age
+   6   │ John Doe,30
+   7   │ Jane Smith,twenty-five
+   8   │ Alice Johnson,25
+   9   │ Bob Brown,45
+  10   │ ```
+  11   │ **Sample Output**
+  12   │
+  13   │ ```bash
+  14   │ John Doe,30
+  15   │ Alice Johnson,25
+  16   │ Bob Brown,45
+  17   │ ```
+  18   │
