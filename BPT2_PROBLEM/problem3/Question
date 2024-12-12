@@ -1,0 +1,26 @@
+───────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       │ File: /opt/cs1102/BPT2_problem_3/README.md
+───────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ Create a script `script.sh` which checks for "database_error" string in `app.log` and if found, adds a timestamped entry to `
+       │ error_report.log`.
+   2   │
+   3   │ **Hint**
+   4   │
+   5   │ - To add the time stamp you need to call `date` command.
+   6   │ -  Assume that the file is present in current working directory
+   7   │
+   8   │ **Sample input (from app.log)**
+   9   │
+  10   │ ```bash
+  11   │ 2024-06-27 12:00:00 INFO Application started
+  12   │ 2024-06-27 12:01:00 ERROR Failed to connect to database
+  13   │ 2024-06-27 12:02:00 ERROR database_error detected in module X
+  14   │ 2024-06-27 12:03:00 INFO Processing request
+  15   │ 2024-06-27 12:04:00 ERROR database_error: connection lost
+  16   │
+  17   │ ```
+  18   │ **Sample output**
+  19   │
+  20   │ ```bash
+  21   │ Fri Jun 28 12:00:00 UTC 2024: Database error found
+  22   │ ```
