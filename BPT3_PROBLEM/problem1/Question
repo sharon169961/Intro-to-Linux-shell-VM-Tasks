@@ -1,0 +1,25 @@
+       │ File: /opt/cs1102/BPT3_problem_1/README.md
+───────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ Write a `script.sh` that reads a CSV file `student_data.csv` containing student information with columns StudentID,Name,Age,Grade. The script shoul
+       │ d check if the `StudentID` field is **numeric** for each row. Print a lists of each row with an `invalid StudentID` error messege along with the co
+       │ rresponding row number. Please refer to the following Sample input and output for reference.
+   2   │
+   3   │ Note:
+   4   │     - Assume that the `student_data.csv` is present in the current working directory. It is created dynamically for each test case.
+   5   │     - Using `tail -n +2 student_data.csv` will allow you to access the file without the header of the file.
+   6   │
+   7   │ **Sample input**
+   8   │
+   9   │ ```
+  10   │ StudentID,Name,Age,Grade
+  11   │ 101,John Doe,20,A
+  12   │ abc123,Jane Smith,22,B
+  13   │ 104,Mike Brown,23,C
+  14   │ 105,,19,D
+  15   │ ```
+  16   │
+  17   │ **Sample output**
+  18   │
+  19   │ ```
+  20   │ Row 2: Invalid StudentID
+  21   │ ```
