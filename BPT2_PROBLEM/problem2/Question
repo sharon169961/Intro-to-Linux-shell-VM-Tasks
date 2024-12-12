@@ -1,0 +1,11 @@
+───────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       │ File: /opt/cs1102/BPT2_problem_2/README.md
+───────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ Write a shell script `script.sh` that checks if either the `global_config` or `local_config` directories exist, and if they d
+       │ o, create an empty file named `default_config` in current working directory.
+   2   │
+   3   │ **Hint**
+   4   │
+   5   │  - Please use concepts tought in week 3 in redirections and combining commands.
+   6   │  - Make appropriate use of || or && operators.
+───────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
