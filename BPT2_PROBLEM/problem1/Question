@@ -1,0 +1,30 @@
+       │ File: /opt/cs1102/BPT2_problem_1/README.md
+───────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ Write a **bash script** `script.sh` to extract data from a HTML file.  Assume that the HTML Code is of the following format a
+       │ nd convert it in to the format as shown in the sample output.
+   2   │
+   3   │ **Note**
+   4   │
+   5   │ 1. Assume that the input to the script is coming from standard input.
+   6   │ 2. The input to the script is through standard input.
+   7   │
+   8   │
+   9   │ **Sample Input**
+  10   │
+  11   │ ```html
+  12   │ <li>Country: <span class="country-name">France</span>, Capital: <span class="country-capital">Paris</span></li>
+  13   │ <li>Country: <span class="country-name">Japan</span>, Capital: <span class="country-capital">Tokyo</span></li>
+  14   │ <li>Country: <span class="country-name">Canada</span>, Capital: <span class="country-capital">Ottawa</span></li>
+  15   │ ```
+  16   │
+  17   │ **Sample Output**
+  18   │
+  19   │ ```bash
+  20   │ France
+  21   │ Paris
+  22   │ Japan
+  23   │ Tokyo
+  24   │ Canada
+  25   │ Ottawa
+  26   │ ```
+  27   │
